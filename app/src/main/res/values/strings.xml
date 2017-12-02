@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Zendo Store</string>
+
+    <string name="login_email">Email</string>
+    <string name="login_password">Senha</string>
+    <string name="login_login">Entrar</string>
+    <string name="login_register">Registrar</string>
+    <string name="login_incorrect">Email e/ou senha incorreto(s).</string>
+    <string name="login_authenticating">Autenticando…</string>
+
+    <string name="register_passwordminimum">Senha deve conter no mínimo 8 caracteres.</string>
+    <string name="register_success">Registrado com sucesso!</string>
+    <string name="register_fail">Não foi possível registrar.</string>
+
+    <string name="bottomnavigation_home">Home</string>
+    <string name="bottomnavigation_store">Loja</string>
+    <string name="bottomnavigation_checkout">Carrinho</string>
+
+    <string name="home_about">Sobre</string>
+    <string name="home_about_app">O Aplicativo</string>
+    <string name="home_about_app_desc">Desenvolvido para facilitar a compra de skins de CS:GO, Zendo Store é o aplicativo ideal para comprar suas skins com a conveniência e a praticidade do seu celular.</string>
+    <string name="home_about_company">A Empresa</string>
+    <string name="home_about_company_desc">Sediada em Estocolmo, a Zendo está presente ao redor do mundo, dedicada a inovar no desenvolvimento de tecnologia e disponibilizá-la.</string>
+    <string name="home_about_authors">Autores</string>
+    <string name="home_about_authors_desc">Bruno Camargo, Gustavo Ribeiro, Helton Oliveira, Honorran Pereira e Lucas Daniel</string>
+    <string name="home_featured">Destaques</string>
+
+    <string name="store_search">Procurar</string>
+
+    <string name="checkout_items">Adicione um ou mais items ao carrinho.</string>
+    <string name="checkout_finalize">Finalizar</string>
+    <string name="checkout_success">Compra efetuada com sucesso!\nDetalhes do seu pedido foram enviados por email.</string>
+    <string name="checkout_fail">Ocorreu uma falha ao finalizar a compra, tente novamente mais tarde.</string>
+    <string name="checkout_remove">Remover</string>
+    <string name="checkout_proceed">Deseja finalizar a compra?</string>
+    <string name="checkout_proceed_yes">Sim</string>
+    <string name="checkout_proceed_no">Não</string>
+    <string name="checkout_total">Total: %1$s</string>
+
+    <string name="productdetails_addtocart">Adicionar ao carrinho</string>
+    <string name="productdetails_itemadded">Item adicionado ao carrinho.</string>
+</resources>

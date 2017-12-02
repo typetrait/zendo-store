@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context="dj.zendo.store.activities.ProductDetailsActivity">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:id="@+id/progressbar_productdetails_progressbar" />
+
+    <ImageView
+        android:id="@+id/image_productdetails_productimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/text_productdetails_productitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_productdetails_productimage"
+        android:layout_centerHorizontal="true"
+        android:textSize="21sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/text_productdetails_productname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_productdetails_productitem"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text_productdetails_productprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_productdetails_productname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="21sp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button_productdetails_addtocart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_productdetails_productprice"
+        android:layout_centerHorizontal="true"
+        android:text="@string/productdetails_addtocart"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>
